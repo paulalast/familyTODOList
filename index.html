@@ -96,7 +96,7 @@
 
         </section>
 
-        <section class="newtask__board">
+        <!-- <section class="newtask__board">
             <h2 class="newtask__title">NEW TASK</h2>
             <select class="member" name="name" id="">
                 <option value="" disabled selected hidden>Name</option>
@@ -121,7 +121,31 @@
             </div>
 
 
+        </section> -->
+
+        <section class="newtask__board">
+            <h2 class="newtask__title">NEW TASK</h2>
+            <select class="member" name="name" id="">
+                <option value="" disabled selected hidden>Name</option>
+            </select>
+
+            <select class="day" name="day">
+                <option value="" disabled selected hidden>Select day:</option>
+                <option id="1" value="1">Monday</option>
+                <option value="2">Thuesday</option>
+                <option value="3">Wednesday</option>
+                <option value="4">Thursday</option>
+                <option value="5">Friday</option>
+            </select>
+
+            <textarea class="task" style="resize: none;" rows="10"
+                placeholder="Write your task..."></textarea>
+            <div class="buttons">
+                <button class="btn cancel">CANCEL</button>
+                <button class="btn save">SAVE</button>
+            </div>
         </section>
+
         <section class="newmember__board">
             <h2 class="newmember__title">
                 New member</h2>
